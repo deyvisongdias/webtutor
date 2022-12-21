@@ -3,6 +3,7 @@ import react from "react"
 import './index.css';
 import "./ComponentButton"
 import Logo from "./logo.PNG";
+import { Link } from "react-router-dom";
 
 function Login() {
 
@@ -12,7 +13,7 @@ function Login() {
             
             <div class="box-form">
             <img src={Logo} class="logo"></img>
-            <form >
+            <form method="GET" id="loginForm">
             <input 
             type="text"
             id ="login"
@@ -25,7 +26,7 @@ function Login() {
             </input>
 
             <button>Login</button>
-            <button>Cadastrar-se</button>
+            <button><Link to="/Cadastro" class="link">Registrar-se</Link ></button>
       
         </form>
 
