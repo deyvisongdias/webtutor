@@ -42,16 +42,6 @@ input[type=password]{
 }
 
 
-
-label
-{
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-
-    color: red;
-}
-
 .box-form{
     margin:20px ;
     padding-top:100px;
@@ -93,7 +83,7 @@ h1,h2,h3,h4,h5{
 }
 
 select{
-    margin-left: 20px;
+    margin-left: 24px;
     width: 100px;
     height: 25px;
 }
